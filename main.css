@@ -9,20 +9,22 @@ Purple: 3E41A8;
 */
 
 body {
-    width: 1000px; /* TODO: make 900 ?*/
+    width: 100%; /* TODO: make 900 ?*/
 }
-
+html{
+  font-size: 62.5%;
+}
 nav {
     background-color: #2B57A1;  /* dark blue */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 1rem 2rem;
 }
 
 .logo {
     color: #FFFFFF;  /* white */
-    font-size: 30px;
+    font-size: 3rem;
     font-family: 'Nunito', sans-serif;
 }
 
@@ -31,12 +33,13 @@ nav {
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
-    margin-left: 20px;
+    margin-left: 2rem;
+    font-size: 1.6rem;
 }
 
 header {
     color: #FFFFFF;  /* white */
-    padding: 40px 20px;
+    padding: 4rem 2rem;
     background-color: #2B57A1;  /* dark blue */
 
     display: flex;
@@ -45,31 +48,31 @@ header {
 }
 
 h1 {
-    font-size: 70px;
+    font-size: 7rem;
     font-family: 'Poppins', sans-serif;
-    line-height: 80px;
-    margin: 10px;
+    line-height: 8rem;
+    margin: 1rem;
 }
 
 .dog-showcase {
-    width: 400px;
-    height: 400px;
+    width: 40rem;
+    height: 40rem;
     border-radius: 50%;
     background-color: #FFFFFF;
-    border: 8px solid #537AD3;
+    border: 0.8rem solid #537AD3;
 }
 
 .dog-showcase img {
-    width: 300px;
-    margin: -40px 50px 0 50px;
+    width: 30rem;
+    margin: -4rem 5rem 0 5rem;
 }
 
 section {
-    padding: 20px 40px;
+    padding: 4rem 4rem;
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 3rem;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
 }
@@ -79,8 +82,8 @@ section h2 {
 }
 
 .pups-container {
-    width: 900px;
-    margin: 0 10px;
+    width: 100%;
+    margin: 0 1rem;
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
@@ -88,19 +91,19 @@ section h2 {
 }
 
 .pup-wrapper {
-    width: 400px;
-    height: 200px;
-    border-radius: 5px;
-    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+    width: 40rem;
+    height: 20rem;
+    border-radius: 0.5rem;
+    box-shadow: 0rem 0.1rem 0.3rem 0rem rgba(0, 0, 0, 0.2);
 
     display: flex;
     overflow: hidden;
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
 }
 
 .pup-pic {
-    width: 200px;
-    height: 200px;
+    width: 20rem;
+    height: 20rem;
 
     background-size: cover;
     background-position: center;
@@ -109,7 +112,7 @@ section h2 {
 }
 
 #pup-1 {
-    border: 3px solid #1BBFAB;  /* green */
+    border: 0.3rem solid #1BBFAB;  /* green */
 }
 
 #pup-1 .pup-pic {
@@ -117,7 +120,7 @@ section h2 {
 }
 
 #pup-2 {
-    border: 3px solid #3E41A8;  /* purple */
+    border: 0.3rem solid #3E41A8;  /* purple */
 }
 
 #pup-2 .pup-pic {
@@ -125,7 +128,7 @@ section h2 {
 }
 
 #pup-3 {
-    border: 3px solid #7FBA49;  /* lime */
+    border: 0.3rem solid #7FBA49;  /* lime */
 }
 
 #pup-3 .pup-pic {
@@ -133,7 +136,7 @@ section h2 {
 }
 
 #pup-4 {
-    border: 3px solid #EFA03E;  /* orange */
+    border: 0.3rem solid #EFA03E;  /* orange */
 }
 
 #pup-4 .pup-pic {
@@ -141,13 +144,13 @@ section h2 {
 }
 
 .pup-info {
-    padding: 10px 20px;
+    padding: 1rem 2rem;
 }
 
 .pup-name {
     font-family: 'Poppins', sans-serif;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 1.8rem;
 }
 
 .pup-byline,
@@ -160,7 +163,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 1rem 2rem;
     color: #FFFFFF;
     font-family: 'Open Sans Condensed', sans-serif;
 }
